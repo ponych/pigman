@@ -2,7 +2,8 @@
 // 本类由系统自动生成，仅供测试用途
 class UserAction extends Action {
     public function index(){
-        echo 'user home';
+        $this->assign('_site' , array( 'title' => 'my small title'));
+        $this->display('index' );
     }
 
     /**
@@ -12,7 +13,7 @@ class UserAction extends Action {
     public function reg() {
         _fb('run' , __METHOD__);
         $this->assign('_site' , array( 'title' => 'my small title'));
-        $this->display('reg' , array('title' => 'my little title'));
+        $this->display('reg' );
     }
 
     /**

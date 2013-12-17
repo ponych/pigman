@@ -1,406 +1,446 @@
-[ 2013-12-17T08:08:36+08:00 ] 127.0.0.1 /user/reg
+[ 2013-12-17T11:47:25+08:00 ] 127.0.0.1 /user/
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.002322s ]
-INFO: [ route_check ] --END-- [ RunTime:0.002863s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001994s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
-NOTIC: [8] Undefined variable: _site /Users/ericchen/web/pigman/app/Tpl/layout/header.php 第 4 行.
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.004206s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000743s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000401s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000637s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.006282s ]
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.001075s ]
-INFO: [ view_end ] --END-- [ RunTime:0.001197s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2013-12-17T08:09:04+08:00 ] 127.0.0.1 /user/reg
+[ 2013-12-17T11:47:52+08:00 ] 127.0.0.1 /user/
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.001672s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001876s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000800s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
-NOTIC: [8] Undefined variable: _site /Users/ericchen/web/pigman/app/Tpl/layout/header.php 第 4 行.
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.004155s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000155s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000494s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.005520s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000943s ]
-INFO: [ view_end ] --END-- [ RunTime:0.001033s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2013-12-17T08:09:23+08:00 ] 127.0.0.1 /user/reg
+[ 2013-12-17T11:47:52+08:00 ] 127.0.0.1 /assets/js/jquery.js
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000676s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000792s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000426s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
-NOTIC: [8] Undefined variable: _site /Users/ericchen/web/pigman/app/Tpl/layout/header.php 第 4 行.
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T11:47:52+08:00 ] 127.0.0.1 /assets/octicons-bccfe7abf7461ed10568dd044425080f7de09889.woff
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T11:47:52+08:00 ] 127.0.0.1 /assets/octicons-bc546222d5d8d5bd13670f8f5b48956e6c4429ca.ttf
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T11:51:54+08:00 ] 127.0.0.1 /user/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.001009s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000708s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000656s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.003064s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000490s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000595s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2013-12-17T08:09:25+08:00 ] 127.0.0.1 /user/reg
+[ 2013-12-17T11:51:54+08:00 ] 127.0.0.1 /assets/js/jquery.js
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000787s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000925s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
-NOTIC: [8] Undefined variable: _site /Users/ericchen/web/pigman/app/Tpl/layout/header.php 第 4 行.
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T11:51:54+08:00 ] 127.0.0.1 /assets/octicons-bccfe7abf7461ed10568dd044425080f7de09889.woff
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T11:51:54+08:00 ] 127.0.0.1 /assets/octicons-bc546222d5d8d5bd13670f8f5b48956e6c4429ca.ttf
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T13:31:49+08:00 ] 127.0.0.1 /user/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.000820s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000301s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000131s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000468s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001949s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.005000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022001s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000584s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000723s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006001s ]
 
-[ 2013-12-17T08:10:27+08:00 ] 127.0.0.1 /user/reg
+[ 2013-12-17T13:31:50+08:00 ] 127.0.0.1 /assets/js/jquery.js
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000530s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000637s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000362s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T13:31:50+08:00 ] 127.0.0.1 /assets/octicons-bccfe7abf7461ed10568dd044425080f7de09889.woff
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T13:31:50+08:00 ] 127.0.0.1 /assets/octicons-bc546222d5d8d5bd13670f8f5b48956e6c4429ca.ttf
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T13:34:09+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 模板不存在[D:\htdocs\pigman/app/Tpl/Index/index.php]
+
+[ 2013-12-17T13:34:18+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 模板不存在[D:\htdocs\pigman/app/Tpl/Index/show.php]
+
+[ 2013-12-17T13:34:21+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在[D:\htdocs\pigman/app/Tpl/Index/index.php]
+
+[ 2013-12-17T13:35:23+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: _site D:\htdocs\pigman\app\Tpl\layout\header.php 第 6 行.
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.000863s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000332s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000200s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002231s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000636s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000765s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003001s ]
 
-[ 2013-12-17T08:33:20+08:00 ] 127.0.0.1 /
+[ 2013-12-17T13:35:23+08:00 ] 127.0.0.1 /assets/js/jquery.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000389s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T13:35:23+08:00 ] 127.0.0.1 /assets/octicons-bccfe7abf7461ed10568dd044425080f7de09889.woff
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T13:35:23+08:00 ] 127.0.0.1 /assets/octicons-bc546222d5d8d5bd13670f8f5b48956e6c4429ca.ttf
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T13:51:53+08:00 ] 127.0.0.1 /user/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_filter ] --START--
-NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /Users/ericchen/web/pigman/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
-NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /Users/ericchen/web/pigman/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
-INFO: ContentReplace Behavior ::run [ RunTime:0.000477s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000353s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000185s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001863s ]
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000452s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2013-12-17T08:33:25+08:00 ] 127.0.0.1 /user/reg
+[ 2013-12-17T13:51:53+08:00 ] 127.0.0.1 /assets/js/jquery.js
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000544s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000648s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000432s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T13:51:54+08:00 ] 127.0.0.1 /assets/octicons-bccfe7abf7461ed10568dd044425080f7de09889.woff
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T13:51:54+08:00 ] 127.0.0.1 /assets/octicons-bc546222d5d8d5bd13670f8f5b48956e6c4429ca.ttf
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T18:17:08+08:00 ] 127.0.0.1 /user/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.000989s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000714s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000205s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000503s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002772s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000477s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000579s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2013-12-17T08:33:25+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/
+[ 2013-12-17T18:17:08+08:00 ] 127.0.0.1 /assets/js/jquery.js
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000549s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000676s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000392s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
-ERR: 非法操作:cdn.pigman.local.com
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
 
-[ 2013-12-17T08:34:05+08:00 ] 127.0.0.1 /user/reg
+[ 2013-12-17T18:17:09+08:00 ] 127.0.0.1 /assets/octicons-bccfe7abf7461ed10568dd044425080f7de09889.woff
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000470s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T18:17:09+08:00 ] 127.0.0.1 /assets/octicons-bc546222d5d8d5bd13670f8f5b48956e6c4429ca.ttf
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T18:17:17+08:00 ] 127.0.0.1 /user/reg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.001075s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000793s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000324s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000761s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.003497s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000695s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000863s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2013-12-17T08:34:06+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/main.css
+[ 2013-12-17T18:17:17+08:00 ] 127.0.0.1 /assets/js/jquery.js
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000786s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000979s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000619s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
-ERR: 非法操作:cdn.pigman.local.com
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
 
-[ 2013-12-17T08:34:06+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/reset.css
+[ 2013-12-17T18:17:17+08:00 ] 127.0.0.1 /assets/octicons-bccfe7abf7461ed10568dd044425080f7de09889.woff
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000909s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001096s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
-ERR: 非法操作:cdn.pigman.local.com
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
 
-[ 2013-12-17T08:34:07+08:00 ] 127.0.0.1 /user/reg
+[ 2013-12-17T18:17:17+08:00 ] 127.0.0.1 /assets/octicons-bc546222d5d8d5bd13670f8f5b48956e6c4429ca.ttf
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000720s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000911s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000563s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T18:17:19+08:00 ] 127.0.0.1 /user/reg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.001114s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000600s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000307s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000543s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.003065s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000458s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000551s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2013-12-17T08:34:07+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/reset.css
+[ 2013-12-17T18:17:19+08:00 ] 127.0.0.1 /assets/js/jquery.js
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000575s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000729s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
-ERR: 非法操作:cdn.pigman.local.com
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Assets
 
-[ 2013-12-17T08:34:07+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/main.css
+[ 2013-12-17T18:17:19+08:00 ] 127.0.0.1 /assets/octicons-bccfe7abf7461ed10568dd044425080f7de09889.woff
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000799s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000971s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
-ERR: 非法操作:cdn.pigman.local.com
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
 
-[ 2013-12-17T08:34:54+08:00 ] 127.0.0.1 /user/reg
+[ 2013-12-17T18:17:19+08:00 ] 127.0.0.1 /assets/octicons-bc546222d5d8d5bd13670f8f5b48956e6c4429ca.ttf
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.001257s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001453s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000735s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2013-12-17T18:19:58+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) D:\htdocs\pigman\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2013-12-17T18:21:17+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Unknown database 'pigman'
+
+[ 2013-12-17T18:23:49+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.005000s ]
+ERR: 1146:Table 'pigman.pg_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `pg_user`
+SQL: SELECT * FROM `pg_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1146:Table 'pigman.pg_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `pg_user` WHERE ( `id` = 1 ) LIMIT 1  
+NOTIC: [8] Undefined variable: _site D:\htdocs\pigman\app\Tpl\layout\header.php 第 6 行.
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.001406s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000840s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000586s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.001068s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.004406s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.002000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000996s ]
-INFO: [ view_end ] --END-- [ RunTime:0.001161s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
 
-[ 2013-12-17T08:34:55+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/reset.css
+[ 2013-12-17T18:23:49+08:00 ] 127.0.0.1 /assets/js/jquery.js
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000842s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001031s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000613s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
-ERR: 非法操作:cdn.pigman.local.com
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
 
-[ 2013-12-17T08:34:55+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/main.css
+[ 2013-12-17T18:23:49+08:00 ] 127.0.0.1 /assets/octicons-bccfe7abf7461ed10568dd044425080f7de09889.woff
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000876s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001069s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002524s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002702s ]
-ERR: 非法操作:cdn.pigman.local.com
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
 
-[ 2013-12-17T08:35:29+08:00 ] 127.0.0.1 /user/reg
+[ 2013-12-17T18:23:49+08:00 ] 127.0.0.1 /assets/octicons-bc546222d5d8d5bd13670f8f5b48956e6c4429ca.ttf
 INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000745s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000916s ]
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
-INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.001091s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000544s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000236s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000765s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.003100s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
-INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000704s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000842s ]
-
-[ 2013-12-17T08:35:29+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/reset.css
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000967s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001241s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
-ERR: 非法操作:cdn.pigman.local.com
-
-[ 2013-12-17T08:35:29+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/main.css
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.001179s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001369s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000766s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
-ERR: 非法操作:cdn.pigman.local.com
-
-[ 2013-12-17T08:45:18+08:00 ] 127.0.0.1 /user/reg
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000470s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000574s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000386s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
-INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.000792s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000320s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002006s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
-INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000415s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
-
-[ 2013-12-17T08:45:19+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/main.css
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000811s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000633s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
-ERR: 非法操作:cdn.pigman.local.com
-
-[ 2013-12-17T08:45:19+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/reset.css
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.001169s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001359s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
-ERR: 非法操作:cdn.pigman.local.com
-
-[ 2013-12-17T08:47:31+08:00 ] 127.0.0.1 /user/reg
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000575s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000721s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000335s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
-INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.001564s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000469s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000182s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000532s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.003064s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
-INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000732s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
-
-[ 2013-12-17T08:47:31+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/reset.css
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000865s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
-ERR: 非法操作:cdn.pigman.local.com
-
-[ 2013-12-17T08:47:31+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/main.css
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000522s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000637s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
-ERR: 非法操作:cdn.pigman.local.com
-
-[ 2013-12-17T08:49:15+08:00 ] 127.0.0.1 /user/reg
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000924s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
-INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.001060s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000405s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000163s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000781s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002798s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
-INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000657s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000782s ]
-
-[ 2013-12-17T08:49:15+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/reset.css
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000565s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000712s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000433s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
-ERR: 非法操作:cdn.pigman.local.com
-
-[ 2013-12-17T08:49:15+08:00 ] 127.0.0.1 /user/cdn.pigman.local.com/assets/css/main.css
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000859s ]
-INFO: [ route_check ] --END-- [ RunTime:0.001031s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000630s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
-ERR: 非法操作:cdn.pigman.local.com
-
-[ 2013-12-17T08:49:51+08:00 ] 127.0.0.1 /user/reg
-INFO: [ route_check ] --START--
-INFO: CheckRoute Behavior ::run [ RunTime:0.000471s ]
-INFO: [ route_check ] --END-- [ RunTime:0.000580s ]
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000356s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
-INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.000813s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000157s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000496s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002070s ]
-NOTIC: [8] Array to string conversion /Users/ericchen/web/pigman/Lib/Core/View.class.php 第 95 行.
-INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000594s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000693s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
 

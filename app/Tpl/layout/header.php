@@ -1,111 +1,147 @@
 <!DOCTYPE html>
-<html lang="zh-CN" class="ua-mac ua-ff25">
-<head>
-    <meta content="text/html;charset=utf-8" http-equiv="content-type" />
-    <title><?php echo $_site['title'];?></title>
-    <link rel="stylesheet" href="<?php echo C('asset_cdn');?>/assets/css/reset.css" />
-    <link rel="stylesheet" href="<?php echo C('asset_cdn');?>/assets/css/main.css" />
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><?php echo $_site['title'];?> :: <?php echo C('title_suffix');?></title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+    <meta content="O2tZZ+1B7/ciYgjk9t+lrob5132BQ1gA7sA7MYfSPV0=" name="csrf-token" />
+
+    <link href="<?php echo C('asset_cdn');?>/css/reset.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="<?php echo C('asset_cdn');?>/css/main.css" media="all" rel="stylesheet" type="text/css" />
+
+    <script src="<?php echo C('asset_cdn');?>/js/jquery.js" type="text/javascript"></script>
+    <script src="<?php echo C('asset_cdn');?>/js/main.js" type="text/javascript"></script>
 </head>
-<body>
-
-<div id="db-global-nav" class="global-nav">
-    <div class="bd">
-        <div class="top-nav-info">
 
 
-            <span class="perf-metric"><!-- _performtips_ --></span>
-            <ul>
+<body class="logged_in  env-production windows  page-dashboard">
+<div class="wrapper">
 
-                <li><a id="top-nav-doumail-link" href="http://www.douban.com/doumail/">豆邮</a></li>
-                <li class="nav-user-account">
-                    <a target="_blank" href="http://www.douban.com/accounts/" class="bn-more"><span>小马哥的帐号</span><span class="arrow"></span></a>
-                    <div class="more-items">
-                        <table cellpadding="0" cellspacing="0">
-                            <tr><td><a href="http://www.douban.com/mine/">我的豆瓣</a></td></tr>
-                            <tr><td><a target="_blank" href="http://www.douban.com/accounts/">我的帐号</a></td></tr>
-                            <tr><td><a href="http://www.douban.com/accounts/logout?source=main&amp;ck=pwMA">退出</a></td></tr>
-                        </table>
-                    </div>
+    <div class="header<?php echo is_login()?' header-logged-in':'';?> true">
+        <div class="container clearfix">
 
-                </li>
-            </ul>
-        </div>
-
-
-        <div class="top-nav-reminder"  style=margin-right:5px>
-            <a href="http://www.douban.com/notification/" class="lnk-remind">提醒
-                <span class="num"><span>2</span><i></i></span>
+            <a class="header-logo-invertocat" href="https://github.com/">
+                <span class="mega-octicon octicon-mark-github"></span>
             </a>
-            <div id="top-nav-notimenu" class="more-items">
-                <div class="bd">
-                    <p>加载中...</p>
-                </div>
+
+            <a href="/notifications" class="notification-indicator tooltipped downwards" data-gotokey="n" title="You have unread notifications">
+                <span class="mail-status unread"></span>
+            </a>
+
+            <div class="command-bar js-command-bar  ">
+                <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+                    <input type="text" data-hotkey="s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off" data-username="ponych" />
+
+                <span class="octicon help tooltipped downwards" title="Show command bar help">
+                    <span class="octicon octicon-question"></span>
+                </span>
+
+                    <input type="hidden" name="ref" value="cmdform">
+
+                </form>
+                <ul class="top-nav">
+                    <li class="explore"><a href="/explore">Explore</a></li>
+                    <li><a href="https://gist.github.com">Gist</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="https://help.github.com">Help</a></li>
+                </ul>
             </div>
-        </div>
-
-
-        <div class="global-nav-items">
-            <ul>
-
-                <li class="on">
-                    <a href="http://www.douban.com/"  onclick="moreurl(this, {from: 'top-nav-click-main', uid: '1924862'})" >豆瓣</a>
-                </li>
-
-
+            <ul id="user-links">
                 <li>
-                    <a href="http://book.douban.com/" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-book', uid: '1924862'})" >读书</a>
-                </li>
-
-
-                <li>
-                    <a href="http://movie.douban.com/" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-movie', uid: '1924862'})" >电影</a>
-                </li>
-
-
-                <li>
-                    <a href="http://music.douban.com/" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-music', uid: '1924862'})" >音乐</a>
-                </li>
-
-
-                <li>
-                    <a href="http://www.douban.com/location/" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-location', uid: '1924862'})" >同城</a>
-                </li>
-
-
-                <li>
-                    <a href="http://www.douban.com/group/" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-group', uid: '1924862'})" >小组</a>
-                </li>
-
-
-                <li>
-                    <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-read', uid: '1924862'})" >阅读</a>
-                </li>
-
-
-                <li>
-                    <a href="http://douban.fm/" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-fm', uid: '1924862'})" >豆瓣FM</a>
-                </li>
-
-
-                <li>
-                    <a href="http://dongxi.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-commodity', uid: '1924862'})" >东西</a>
+                    <a href="/ponych" class="name">
+                        <img height="20" alt="avatar" src="https://1.gravatar.com/avatar/1ed98e59301d48034e1b5642442c125f?d=https%3A%2F%2Fidenticons.github.com%2F3a4c0da719c8db4391292ef17647ff54.png&amp;r=x&amp;s=140" width="20" /> ponych
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#more" class="bn-more"><span>更多</span></a>
-                    <div class="more-items">
-                        <table cellpadding="0" cellspacing="0">
-
-                            <tr><td><a href="http://9.douban.com" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-9', uid: '1924862'})" >九点</a></td></tr>
-
-                            <tr><td><a href="http://alphatown.com" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-town', uid: '1924862'})" >阿尔法城</a></td></tr>
-
-                            <tr><td><a href="http://www.douban.com/mobile/" target="_blank"  onclick="moreurl(this, {from: 'top-nav-click-mobile', uid: '1924862'})" >移动应用</a></td></tr>
-                        </table>
-                    </div>
+                    <a href="/new" id="new_repo" class="tooltipped downwards" title="Create a new repo" aria-label="Create a new repo">
+                        <span class="octicon octicon-repo-create"></span>
+                    </a>
                 </li>
+
+                <li>
+                    <a href="/settings/profile" id="account_settings"
+                       class="tooltipped downwards"
+                       aria-label="Account settings "
+                       title="Account settings ">
+                        <span class="octicon octicon-tools"></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="tooltipped downwards" href="/logout" data-method="post" id="logout" title="Sign out" aria-label="Sign out">
+                        <span class="octicon octicon-log-out"></span>
+                    </a>
+                </li>
+
             </ul>
+
+            <div class="js-new-dropdown-contents hidden">
+
+
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="/new"><span class="octicon octicon-repo-create"></span> New repository</a>
+                    </li>
+                    <li>
+                        <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+
+
+
         </div>
     </div>
-</div>
 
+    <div class="site clearfix">
+        <div id="site-container" class="context-loader-container" data-pjax-container>
+            <div class="pagehead">
+                <div class="container">
+
+                    <ul class="pagehead-actions">
+                        <li><a class="feed tooltipped leftwards" title="Subscribe to your personalized GitHub Feed" href="/ponych.private.atom?token=899786__eyJzY29wZSI6IkF0b206L3BvbnljaC5wcml2YXRlLmF0b20iLCJleHBpcmVzIjoyOTY1MDg3ODI0fQ==--f9732bd3cbd409058e58fae9c981141babf68b6c"><span class="dashboard-feed-icon octicon octicon-rss"></span> News Feed</a></li>
+                    </ul>
+
+                    <div class="select-menu account-switcher js-menu-container js-select-menu">
+  <span class="minibutton select-menu-button with-gravatar js-menu-target">
+    <div class="select-menu-button-gravatar js-select-button-gravatar">
+        <img height="20" alt="avatar" src="https://1.gravatar.com/avatar/1ed98e59301d48034e1b5642442c125f?d=https%3A%2F%2Fidenticons.github.com%2F3a4c0da719c8db4391292ef17647ff54.png&amp;r=x&amp;s=140" width="20" />
+    </div>
+    <span class="js-select-button">ponych</span>
+  </span>
+
+                        <div class="select-menu-modal-holder js-menu-content">
+                            <div class="select-menu-modal js-navigation-container">
+                                <div class="select-menu-header">
+                                    <span class="select-menu-title">Switch account context</span>
+                                    <span class="octicon octicon-remove-close js-menu-close"></span>
+                                </div> <!-- /.select-menu-header -->
+
+                                <div class="select-menu-list js-navigation-container">
+                                    <div class="select-menu-no-results">You don’t belong to any organizations.</div>
+                                </div> <!-- /.select-menu-list -->
+                                <div class="select-menu-footer">
+                                    <span class="octicon octicon-plus"></span>
+                                    <a href="/account/organizations/new">Create Organization</a>
+                                </div> <!-- /.select-menu-footer -->
+
+                            </div> <!-- /.select-menu-modal -->
+                        </div> <!-- /.select-menu-modal-holder -->
+                    </div> <!-- /.select-menu -->
+
+
+                    <p class="tip"><strong class="protip">ProTip&trade;</strong> <a href="http://shop.github.com/products/die-cut-github-stickers">Feline cephalopod adhesives</a> are great for decorating portable computation devices.</p>
+
+                </div>
+            </div><!-- /.pagehead -->
+
+            <div class="container">
