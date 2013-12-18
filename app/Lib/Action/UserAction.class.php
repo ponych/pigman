@@ -1,6 +1,6 @@
 <?php
 // 本类由系统自动生成，仅供测试用途
-class UserAction extends Action {
+class UserAction extends BaseAction {
     public function index(){
         $this->assign('_site' , array( 'title' => 'my small title'));
         $this->display('index' );
@@ -32,7 +32,12 @@ class UserAction extends Action {
      * POST /user/login { email: $email , password: $password ,captcha :$captcha }
      */
     function login() {
-        $this->ajaxReturn( 0,1,1);
+        if ($this->isAjax()) {
+            $this->ajaxReturn( 0,1,1);
+        }
+
+
+        $this->display();
     }
 
     /**
