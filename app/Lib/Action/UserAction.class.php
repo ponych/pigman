@@ -67,5 +67,23 @@ class UserAction extends BaseAction {
 
     }
 
+    public function captcha() {
+        //仿豆瓣验证码设置
+        import ( '@.Rover.SimpleCaptcha' );
+        $captcha = new SimpleCaptcha ();
+        $captcha->Yperiod = 12;
+        $captcha->Yamplitude = 4;
+        $captcha->Xperiod = 10;
+        $captcha->Xamplitude = 5;
+        $captcha->lineWidth=3;
+        //背景图，豆瓣是随机了多张，我随便弄了一张你可以修改它
+        $captcha->im=imagecreatefromjpeg('resources/background.jpg');
+        $captcha->scale=3;
+        $captcha->blur=true;
+//        $captcha->fonts =array( 'Candice.ttf','VeraSansBold.ttf' ,'Jura.ttf');
+        $captcha->shadowColor=array(255,255,255);
+        $captcha->debug = true;
+        $captcha->CreateImage ();
+    }
 
 }
