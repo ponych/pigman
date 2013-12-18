@@ -50,6 +50,11 @@ class UserAction extends Action {
 
     }
 
+    function forgot_password() {
+
+        $this->display();
+    }
+
     /**
      *
      */

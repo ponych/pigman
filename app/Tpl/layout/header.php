@@ -104,44 +104,6 @@
 
     <div class="site clearfix">
         <div id="site-container" class="context-loader-container" data-pjax-container>
-            <div class="pagehead">
-                <div class="container">
 
-                    <ul class="pagehead-actions">
-                        <li><a class="feed tooltipped leftwards" title="Subscribe to your personalized GitHub Feed" href="/ponych.private.atom?token=899786__eyJzY29wZSI6IkF0b206L3BvbnljaC5wcml2YXRlLmF0b20iLCJleHBpcmVzIjoyOTY1MDg3ODI0fQ==--f9732bd3cbd409058e58fae9c981141babf68b6c"><span class="dashboard-feed-icon octicon octicon-rss"></span> News Feed</a></li>
-                    </ul>
-
-                    <div class="select-menu account-switcher js-menu-container js-select-menu">
-  <span class="minibutton select-menu-button with-gravatar js-menu-target">
-    <div class="select-menu-button-gravatar js-select-button-gravatar">
-        <img height="20" alt="avatar" src="https://1.gravatar.com/avatar/1ed98e59301d48034e1b5642442c125f?d=https%3A%2F%2Fidenticons.github.com%2F3a4c0da719c8db4391292ef17647ff54.png&amp;r=x&amp;s=140" width="20" />
-    </div>
-    <span class="js-select-button">ponych</span>
-  </span>
-
-                        <div class="select-menu-modal-holder js-menu-content">
-                            <div class="select-menu-modal js-navigation-container">
-                                <div class="select-menu-header">
-                                    <span class="select-menu-title">Switch account context</span>
-                                    <span class="octicon octicon-remove-close js-menu-close"></span>
-                                </div> <!-- /.select-menu-header -->
-
-                                <div class="select-menu-list js-navigation-container">
-                                    <div class="select-menu-no-results">You don’t belong to any organizations.</div>
-                                </div> <!-- /.select-menu-list -->
-                                <div class="select-menu-footer">
-                                    <span class="octicon octicon-plus"></span>
-                                    <a href="/account/organizations/new">Create Organization</a>
-                                </div> <!-- /.select-menu-footer -->
-
-                            </div> <!-- /.select-menu-modal -->
-                        </div> <!-- /.select-menu-modal-holder -->
-                    </div> <!-- /.select-menu -->
-
-
-                    <p class="tip"><strong class="protip">ProTip&trade;</strong> <a href="http://shop.github.com/products/die-cut-github-stickers">Feline cephalopod adhesives</a> are great for decorating portable computation devices.</p>
-
-                </div>
-            </div><!-- /.pagehead -->
 
             <div class="container">

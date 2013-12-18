@@ -17,9 +17,6 @@
 
         </ul>
 
-        <a href="/">
-            <span class="mega-octicon octicon-mark-github"></span>
-        </a>
 
         <ul class="site-footer-links">
             <li>&copy; 2013 <span title="0.07581s from github-fe133-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>

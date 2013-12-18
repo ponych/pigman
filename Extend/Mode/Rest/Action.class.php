@@ -16,7 +16,7 @@
  * @subpackage  Core
  * @author   liu21st <liu21st@gmail.com>
  */
-abstract class Action {
+abstract class RestAction {
 
     // 当前Action名称
     private $name =  '';
