@@ -174,8 +174,21 @@ dl.form>dd input[type="text"].short,dl.form>dd #adv_code_search .short.search-pa
 dl.form>dd input[type="text"].shorter,dl.form>dd #adv_code_search .shorter.search-page-label,#adv_code_search dl.form>dd .shorter.search-page-label,dl.form>dd input[type="password"].shorter,dl.form>dd input[type="email"].shorter{width:130px}
 dl.form>dd input[type="text"].long,dl.form>dd #adv_code_search .long.search-page-label,#adv_code_search dl.form>dd .long.search-page-label,dl.form>dd input[type="password"].long,dl.form>dd input[type="email"].long{width:100%}
 dl.form>dd input[type="text"].is-autocheck-loading,dl.form>dd #adv_code_search .is-autocheck-loading.search-page-label,#adv_code_search dl.form>dd .is-autocheck-loading.search-page-label,dl.form>dd input[type="password"].is-autocheck-loading,dl.form>dd input[type="email"].is-autocheck-loading{background-image:url("/images/spinners/octocat-spinner-32.gif?f0711cf8");background-size:16px}
-dl.form>dd input[type="text"].is-autocheck-successful,dl.form>dd #adv_code_search .is-autocheck-successful.search-page-label,#adv_code_search dl.form>dd .is-autocheck-successful.search-page-label,dl.form>dd input[type="password"].is-autocheck-successful,dl.form>dd input[type="email"].is-autocheck-successful{background-image:url("/images/modules/ajax/success.png?6a1d09d6")}
-dl.form>dd input[type="text"].is-autocheck-errored,dl.form>dd #adv_code_search .is-autocheck-errored.search-page-label,#adv_code_search dl.form>dd .is-autocheck-errored.search-page-label,dl.form>dd input[type="password"].is-autocheck-errored,dl.form>dd input[type="email"].is-autocheck-errored{background-image:url("/images/modules/ajax/error.png?4c3c9459")}
+dl.form>dd input[type="text"].is-autocheck-successful,
+dl.form>dd #adv_code_search .is-autocheck-successful.search-page-label,
+#adv_code_search dl.form>dd .is-autocheck-successful.search-page-label,
+dl.form>dd input[type="password"].is-autocheck-successful,
+dl.form>dd input[type="email"].is-autocheck-successful{
+    background-image:url("/images/modules/ajax/success.png?6a1d09d6")
+}
+dl.form>dd input[type="text"].is-autocheck-errored,
+dl.form>dd #adv_code_search .is-autocheck-errored.search-page-label,
+#adv_code_search dl.form>dd .is-autocheck-errored.search-page-label,
+dl.form>dd input[type="password"].is-autocheck-errored,
+dl.form>dd input[type="email"].is-autocheck-errored
+{
+    background-image:url("/images/modules/ajax/error.png?4c3c9459")
+}
 dl.form>dd textarea{width:100%;height:200px;min-height:200px}
 dl.form>dd textarea.short{height:50px;min-height:50px}
 dl.form>dd p.note{margin:4px 0 2px 0;font-size:12px;min-height:17px;color:#777}
@@ -210,7 +223,24 @@ dl.form.loading .indicator{display:inline}
 dl.form.successful .success{display:inline;color:#339900}
 dl.form.errored>dt label{color:#990000}
 dl.form.errored .error{display:inline;color:#990000}
-dl.form.errored dd.error,dl.form.errored dd.warning{display:inline-block;padding:5px;font-size:11px;color:#494620;background:#f7ea57;border:1px solid #c0b536;border-top-color:#fff;border-bottom-right-radius:3px;border-bottom-left-radius:3px}
+dl.form.errored dd.error,
+dl.form.errored dd.warning{
+    display:inline-block;
+    padding:5px;font-size:11px;color:#494620;background:#f7ea57;
+    border:1px solid #c0b536;border-top-color:#fff;
+    border-bottom-right-radius:3px;border-bottom-left-radius:3px
+}
+
+label.error {
+    display:inline-block;
+    padding:5px;font-size:11px;color:#494620;background:#f7ea57;
+    border:1px solid #c0b536;
+    border-bottom-right-radius :3px;
+    border-bottom-left-radius  :3px;
+    border-top-left-radius     :3px;
+    border-top-right-radius    :3px;
+}
+
 dl.form.warn .warning{display:inline;color:#990000}
 dl.form.warn dd.warning{display:inline-block;padding:5px;font-size:11px;color:#494620;background:#f7ea57;border:1px solid #c0b536;border-top-color:#fff;border-bottom-right-radius:3px;border-bottom-left-radius:3px}
 dl.form .form-note{margin-top:-1px;display:inline-block;padding:5px;font-size:11px;color:#494620;background:#f7ea57;border:1px solid #c0b536;border-top-color:#fff;border-bottom-right-radius:3px;border-bottom-left-radius:3px}
@@ -2866,7 +2896,9 @@ to{transform:rotate(360deg)}
 .form-signup-home dl.form.errored dd.error,.form-signup-home dl.form.errored dd.warning{position:absolute;top:100%;left:0;right:0;z-index:5;margin-top:2px;font-size:12px;font-weight:normal;padding:10px;border:0;text-align:left;border-radius:5px;background-color:#333;color:#fff}
 .form-signup-home dl.form.errored dd.error:after,.form-signup-home dl.form.errored dd.warning:after{position:absolute;left:10px;bottom:100%;height:0;width:0;content:"";border:solid transparent;border-bottom-color:#333;border-width:8px;pointer-events:none}
 .form-signup-home dl.form.errored dd.error:empty,.form-signup-home dl.form.errored dd.warning:empty{display:none}
-.form-signup-home dl.form dd input.is-autocheck-successful,.form-signup-home dl.form dd input.is-autocheck-errored,.form-signup-home dl.form dd input.is-autocheck-loading{background-image:none}
+.form-signup-home dl.form dd input.is-autocheck-successful,
+.form-signup-home dl.form dd input.is-autocheck-errored,
+.form-signup-home dl.form dd input.is-autocheck-loading{background-image:none}
 .form-signup-home dl.successed:after,.form-signup-home dl.errored:after{position:absolute;top:15px;right:10px;font:normal normal 16px "octicons";line-height:1;display:inline-block;text-decoration:none;-webkit-font-smoothing:antialiased}
 .form-signup-home dl.successed:after{content:"\f03a";color:#6cc644}
 .form-signup-home dl.errored:after{content:"\f02d";color:#bd2c00}

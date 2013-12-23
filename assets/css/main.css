@@ -202,8 +202,12 @@ ul.compact-options li .spinner{float:left;width:16px;height:16px;margin-left:5px
 .command-bar.in-repository .search-context-select-menu .select-menu-button:hover,.command-bar.in-repository .search-context-select-menu .select-menu-button.selected{background-color:#e4e4e4;background-image:-moz-linear-gradient(#e8e8e8, #e4e4e4);background-image:-webkit-linear-gradient(#e8e8e8, #e4e4e4);background-image:linear-gradient(#e8e8e8, #e4e4e4);background-repeat:repeat-x}
 .command-bar.in-repository .search-context-select-menu .select-menu-button:before{top:11px;border-color:#999 transparent transparent}
 .command-bar.in-repository .search-context-select-menu .select-menu-modal{width:150px}
-.header-logged-in .command-bar .top-nav{position:absolute;top:0;left:230px;z-index:99;width:211px;transition:opacity 0.2s linear;-webkit-transition:opacity 0.2s linear 0;opacity:1;z-index:1}
-.header-logged-out .command-bar .top-nav{position:absolute;top:0;z-index:99;transition:opacity 0.2s linear;-webkit-transition:opacity 0.2s linear 0;opacity:1;z-index:1;margin-top:0px;margin-right:0;right:0}
+.header-logged-in .command-bar .top-nav{
+    position:absolute;top:0;left:230px;z-index:99;width:211px;transition:opacity 0.2s linear;-webkit-transition:opacity 0.2s linear 0;opacity:1;z-index:1}
+.header-logged-out .command-bar .top-nav{
+    position:absolute;top:0;z-index:99;transition:opacity 0.2s linear;
+    -webkit-transition:opacity 0.2s linear 0;opacity:1;z-index:1;margin-top:0px;margin-right:0;right:0
+}
 .header-logged-in .in-repository .top-nav{left:350px}
 .header-logged-in .command-bar-focus .top-nav,.header-logged-out .command-bar-focus .top-nav{opacity:0}
 .header-logged-in .command-bar-hidden .top-nav{left:0}

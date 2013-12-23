@@ -1,6 +1,7 @@
 <?php
 // 本类由系统自动生成，仅供测试用途
 class UserAction extends BaseAction {
+
     public function index(){
         $this->assign('_site' , array( 'title' => 'my small title'));
         $this->display('index' );
@@ -8,12 +9,52 @@ class UserAction extends BaseAction {
 
     /**
      * GET /user/reg to get interface
-     * POST /user/reg { email: $email, $password , captcha: $captcha ,[reg_code: $reg_code ] }
+     * POST (ajax) /user/reg { email: $email, $password , captcha: $captcha ,[reg_code: $reg_code ] }
      */
     public function reg() {
         _fb('run' , __METHOD__);
+
+        if ($this->isAjax() || $this->isPost()) {
+            $m = D('users');
+
+            $data = $this->_post('user');
+
+            $data['encrypted_password'] = UsersModel::gen_password();
+            $r = $m->create($data);
+            _fb($r, '$r');
+            exit();
+            $id =$m->add($data);
+            _fb($m->getLastSql(),'lastSql');
+            _fb($id, '$id');
+            $this->ajaxReturn($data);
+        }
+
+
         $this->assign('_site' , array( 'title' => 'my small title'));
+        $this->addJs('libs/jquery.validate.js');
         $this->display('reg' );
+    }
+
+    /**
+     * checkout if email || nickname already exists in system.
+     */
+    function exists() {
+        _fb( I('user') ,'user' );
+        $user = I('user');
+        if ( $user && isset($user['email'])) {
+            $email = $user['email'];
+            $User = D('users');
+            $exists = $User->find(array('email' => $email));
+            _fb($exists ,'$exists');
+            if ($exists) {
+                $rtn = false;
+            } else {
+                $rtn = true;
+            }
+            $this->ajaxReturn($rtn);
+        } else {
+            _fb('aoth else','something');
+        }
     }
 
     /**

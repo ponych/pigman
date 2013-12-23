@@ -5,8 +5,9 @@ class IndexAction extends Action {
     public function index(){
 
         $mUser = new Model('user');
-        $mUser->find(1);
+        $user = $mUser->find(1);
 
+        _fb($user, '$user');
         $this->display();
     }
 }
