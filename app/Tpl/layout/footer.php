@@ -1,8 +1,8 @@
-</div><!-- /.container -->
+<!--</div> --><!-- /.container -->
 
-</div>
-<div class="modal-backdrop"></div>
-</div>
+        </div>
+        <div class="modal-backdrop"></div>
+    </div>
 </div><!-- /.wrapper -->
 
 <div class="container">

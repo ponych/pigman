@@ -8,21 +8,20 @@
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
-    <meta content="authenticity_token" name="csrf-param" />
-    <meta content="O2tZZ+1B7/ciYgjk9t+lrob5132BQ1gA7sA7MYfSPV0=" name="csrf-token" />
-
     <link href="<?php echo C('asset_cdn');?>/css/reset.css" media="all" rel="stylesheet" type="text/css" />
     <link href="<?php echo C('asset_cdn');?>/css/main.css" media="all" rel="stylesheet" type="text/css" />
-
-    <script src="<?php echo C('asset_cdn');?>/js/jquery.js" type="text/javascript"></script>
-    <script src="<?php echo C('asset_cdn');?>/js/main.js" type="text/javascript"></script>
+    <?php foreach ($_js as $jsfile):?>
+    <script src="<?php echo C('asset_cdn');?>/js/<?php echo $jsfile;?>" type="text/javascript"></script>
+    <?php endforeach;?>
+<!--    <script src="--><?php //echo C('asset_cdn');?><!--/js/libs/jquery-2.0.3.js" type="text/javascript"></script>-->
+<!--    <script src="--><?php //echo C('asset_cdn');?><!--/js/main.js" type="text/javascript"></script>-->
 </head>
 
 
 <body class="logged_in  env-production windows  page-dashboard">
 <div class="wrapper">
 
-    <div class="header<?php echo is_login()?' header-logged-in':'';?> true">
+    <div class="header header-logged-<?php echo is_login()?'in':'out';?> true">
         <div class="container clearfix">
 
             <a class="header-logo-invertocat" href="https://github.com/">
@@ -105,5 +104,4 @@
     <div class="site clearfix">
         <div id="site-container" class="context-loader-container" data-pjax-container>
 
-
-            <div class="container">
+<!--            <div class="container">-->
